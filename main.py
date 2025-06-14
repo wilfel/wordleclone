@@ -177,5 +177,5 @@ button = ttk.Button(master=input_frame, text='Guess', command = lambda: [checkGu
 entry.grid(row=0, column=0) # Places stuff on grid
 button.grid(row=0, column=1)
 input_frame.grid(row=7, column=0, columnspan=5)
-
+window.mainloop()
 
